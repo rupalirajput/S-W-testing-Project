@@ -13,6 +13,11 @@ The local unit tests of an Android project are located in the `app/src/test` fol
       androidTestImplementation 'androidx.test:core:1.0.0'
       // Optional -- Mockito framework
       androidTestImplementation 'org.mockito:mockito-core:2.15.0'
+      
+      testImplementation 'junit:junit:4.12'
+      testImplementation 'androidx.test:core:1.0.0'
+      // Optional -- Mockito framework
+      testImplementation 'org.mockito:mockito-core:2.15.0'
 
     }
 
