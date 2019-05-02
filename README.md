@@ -2,7 +2,7 @@
 Minimal ToDo is an android app where you can track your daily todos. With this app, you can create your own todo list and manage by setting date and time. Alogn with date and time, you can set reminder and snooze options for created todos.
 
 # 2.1. Location of unit tests 
-The local unit tests of an Android project are located in the app/src/test folder.
+The local unit tests of an Android project are located in the `app/src/test` folder.
 
 # 2.2. Required dependencies in the Gradle build file
   To use JUnit tests for your Android application, you need to add it as dependency to your Gradle build file.
