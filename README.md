@@ -18,7 +18,7 @@ The local unit tests of an Android project are located in the `app/src/test` fol
 
 # 2.3. Running the unit tests
    ## 2.3.1. Using Gradle
-      Run your unit tests with the `gradlew test` command.
+      Run your unit tests with the "gradlew test" command.
    ## 2.3.2. Using Android Studio
       To run a unit test, right-click on your test class in the Project window and select Run.
 
