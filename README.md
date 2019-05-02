@@ -9,10 +9,11 @@ The local unit tests of an Android project are located in the `app/src/test` fol
 
     dependencies {
       // Unit testing dependencies
-      testCompile 'junit:junit:4.12'
-      // Set this dependency if you want to use the Hamcrest matcher library
-      testCompile 'org.hamcrest:hamcrest-library:1.3'
-      // more stuff, e.g., Mockito
+      androidTestImplementation 'junit:junit:4.12'
+      androidTestImplementation 'androidx.test:core:1.0.0'
+      // Optional -- Mockito framework
+      androidTestImplementation 'org.mockito:mockito-core:2.15.0'
+
     }
 
 
